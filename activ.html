@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" media="screen and (min-width:1024px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:480px) and (max-width:1024px)">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:480px)">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Acme&family=M+PLUS+1+Code:wght@500&display=swap');
+    </style>
+    <title>Kidokoro's portfolio site</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <h1>~Kidokoro's portfolio site~</h1>
+      </div>
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <ul>
+            <li><a href="index.html" class="animation">HOME</a></li>
+            <li><a href="work.html" class="animation">WORKS</a></li>
+            <li><a href="activ.html" class="animation">ACTIVITIES</a></li>
+            <li><a href="profile.html" class="animation">PROFILE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="menu_name">
+        ACTIVITIES
+      </div>
+    </header>
+
+    <main>
+      <div id="main_pic">
+        <img src="img/activ.png" alr="メイン画像" width="1200" />
+      </div>
+      <div class="box">
+        <p class="coment">
+          ここでは、私が大妻女子大学で履修した授業についてご紹介しております。<br />授業のリンク先には、WORKSページの作品紹介に飛びます。
+        </p>
+        <nav>
+          <ul id="term_n">
+            <li id="page2020"><a href="#one" class="animation">2020年度</a></li>
+            <li id="page2021"><a href="#two" class="animation">2021年度</a></li>
+            <li id="page2022"><a href="#three" class="animation">2022年度</a></li>
+            <li id="page2023"><a href="#four" class="animation">2023年度</a></li>
+          </ul>
+        <nav>
+        <p>～時間割～</p>
+        <div class="term">
+          <h2 id="one">2020年度 １年次</h3>
+          <p>＜前期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td></td>
+              <td></td>
+              <td>情報処理原論</td>
+              <td>キャンパスライフとメンタルヘルス</td>
+              <td><a href="work.html#zyouhousyori">情報処理実習A</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>コンピュータの基礎</td>
+              <td>基礎社会学</td>
+              <td></td>
+              <td>情報デザイン基礎演習</td>
+              <td><a href="work.html#zyouhousyori">情報処理実習A</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td></td>
+              <td>キャリアデザインI</td>
+              <td>英語IC</td>
+              <td>英語IA</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>情報基礎数学</td>
+              <td></td>
+              <td><a href="work.html#dezainron">デザイン論及び演習Ⅰ</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <p>
+            コンピュータの基礎、そして情報処理原論では、コンピュータや情報通信ネットワークを使いこなすため、基礎的な知識を身につけました。また、情報処理実習Aでは、Wordでの文書作成や表、図の挿入、またExcelでの関数やグラフの利用方法などを学びました。デザイン論及び演習Ⅰでは、illustratorやPhotoshopの使い方を学びながら、課題にあった作品を作りました。
+          </p>
+
+          <p>＜後期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>ポピュラー・カルチャーの世界</td>
+              <td></td>
+              <td></td>
+              <td>情報処理実習B</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ソフトウェア概論</td>
+              <td></td>
+              <td></td>
+              <td>情報処理実習B</td>
+              <td>レクリエーション論</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td></td>
+              <td></td>
+              <td>英語ID</td>
+              <td>英語IB</td>
+              <td><a href="work.html#pronyumon">プログラミング入門</a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>情報数学A</td>
+              <td>基礎統計学</td>
+              <td><a href="work.html#dezainron">デザイン論及び演習Ⅱ</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <p>
+            情報処理実習Bでは、HTMLやCSSの使い方を学び、実際にホームページを作りました。そこでは、相互鑑賞などを通して、自分の作品を客観的に評価をしてもらい、改良を重ねました。プログラミング入門では、JavaScriptのライブラリである、p5.jsを学びました。
+          </p>
+        </div>
+
+        <div class="term">
+          <h2 id="two">2021年度 ２年次</h3>
+          <p>＜前期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>英語ⅡA</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a href="work.html#net">情報ネットワーク論及び実習Ⅰ</a></td>
+              <td></td>
+              <td>英語ⅢA</td>
+              <td>英語ⅡC</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>スポーツA</td>
+              <td></td>
+              <td><a href="work.html#kurieithib">クリエイティブ思考法</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="6">オンデマンド</th>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td></td>
+              <td><a href="work.html#purokiso">プログラミングの基礎</a></td>
+              <td>オフィスマネジメント論Ⅰ</td>
+              <td>映像・演劇の世界</td>
+              <td>日本国憲法</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td></td>
+              <td>プログラミングの基礎演習</td>
+              <td></td>
+              <td>音楽の世界</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <p>
+            情報ネットワーク論及び実習Ⅰでは、情報ネットワークの構成や仕組みを学びました。クリエイティブ思考法では、社会における問題を情報デザインで解決することを目的に、アイデアを創出し、プレゼンテーションを行いました。このプレゼンテーションを通して、サービスデザインの流れ、そしてアイデアの視覚化を学びました。プログラミングの基礎、基礎演習では、C言語を使いプログラミングの基本を学びました。課題に対して、自分でアルゴリズムを考え、プログラムを繰り返し実行し、自分が思ったようにプログラムが出来ると達成感がありました。
+          </p>
+
+          <p>＜後期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#proen">プログラミング論及び演習</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>英語ⅡB</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#proen">プログラミング論及び演習</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>情報ネットワーク論及び実習Ⅱ</td>
+              <td></td>
+              <td>英語ⅢB</td>
+              <td>英語ⅡD</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="6">オンデマンド</th>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>メディアと現代社会</td>
+              <td></td>
+              <td>ジェンダーと社会生活</td>
+              <td>マーケティング入門</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td></td>
+              <td></td>
+              <td>美術の世界</td>
+              <td>情報セキュリティ論</td>
+              <td>生活の物理</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <p>
+            情報ネットワーク論及び実習Ⅱでは、仮想マシンであるVirtualBoxを使ってLinuxサーバを構築し、システム設計や運用を実習を通して学びました。プログラミング論及び演習では、JavaScriptやJavaScriptのライブラリであるjQueryを学び、動きのあるWebサイトを作りました。情報セキュリティ論では、インターネットの仕組みやセキュリティ技術について学びました。
+          </p>
+        </div>
+
+        <div class="term">
+          <h2 id="three">2022年度 ３年次</h3>
+          <p>＜前期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><a href="work.html#zemi">社会情報学ゼミナールⅠ</a></td>
+              <td>情報システム論及び演習Ⅰ</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="6">オンデマンド</th>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td></td>
+              <td></td>
+              <td>WebプログラミングⅠ</td>
+              <td></td>
+              <td>ウエブデザイン</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>統計処理及び演習</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>情報管理</td>
+              <td>スマートデバイス応用Ⅰ</td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#arugorizumu">アルゴリズム論及び演習Ⅰ</a></td>
+            </tr>
+          </table>
+          <p>
+            社会情報ゼミナールⅠでは、藤村ゼミに所属しました。JavaScriptでモノの操作や制御を行うことができるobnizを使って、LEDを発光させるプログラムを実行したり、JavaScriptのライブラリであるthree.jsを使って3Dの作品を制作しました。
+          </p>
+          <p>
+            情報管理では、膨大な情報の中から必要な情報を取捨選択し、情報を管理するスキルを学んでいます。情報システム論及び演習Ⅰでは、HTMLやJava、スマートデバイス応用Ⅰでは、Javaの基礎、WebプログラミングⅠでは、JavaScript、ウエブデザインでは、HTMLとCSSとJavaScriptのライブラリであるjQuery、アルゴリズム論及び演習Ⅰでは、Pythonを学ぶなど、たくさんのプログラミング言語を学んでいます。
+          </p>
+
+          <p>＜後期＞</p>
+          <table border="1">
+            <tr>
+              <th class="time"></th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#webpro">WebプログラミングⅡ</a></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td></td>
+              <td>情報システム論及び演習Ⅱ</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>社会情報学ゼミナールⅡ</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="6">オンデマンド</th>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#intafe-su">インタフェースデザイン論</a></td>
+              <td><a href="work.html#gazousyori">画像情報処理論及び演習</a></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td></td>
+              <td>シミュレーション論</td>
+              <td>数値計算論</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td></td>
+              <td>スマートデバイス応用Ⅱ</td>
+              <td></td>
+              <td></td>
+              <td><a href="work.html#arugorizumu">アルゴリズム論及び演習Ⅱ</a></td>
+            </tr>
+          </table>
+          <p>
+            ゼミでは、卒業研究のテーマに向けて、ゼミのメンバーとディスカッションを重ねました。インターフェースデザイン論では、Unityを使用し、2Dや3Dのゲーム作成の方法を学びました。画像処理及び演習では、OpenCVという画像処理ライブラリを使用し、基本的な画像処理について学びました。Webプログラミングは、Javascriptを使って実践的なプログラミング技術を学びました。
+          </p>
+        </div>
+
+        <div class="term">
+          <h2 id="four">2022年度 ４年次</h2>
+          <p style="text-align: center;">まだ未定です。</p>
+        </div>   
+
+      </div>
+      
+      <!--TOPのボタン -->
+      <div class="top">
+          <a href="#">
+            <div class="topbtn">
+              <img src="img/top.png">
+              <p>TOPPAGE</p>
+            </div>
+          </a>
+        </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>Copyright © 2023 Mizuki Kidokoro</p>
+      </div>
+    </footer>
+
+    <script>
+      $(function () {
+        var pagetop = $(".top");
+
+        pagetop.hide();
+        $(window).scroll(function () {
+          const windowHeight = $(window).height();
+          const scroll = $(window).scrollTop();
+
+          $(".term").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 350) {
+              $(this).addClass("term-fadein");
+            } else {
+              $(this).removeClass("term-fadein");
+            }
+          });
+
+          $(".coment").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 150) {
+              $(this).addClass("coment-fadein");
+            } else {
+              $(this).removeClass("coment-fadein");
+            }
+          });
+
+          if ($(this).scrollTop() > 150) {
+            pagetop.fadeIn();
+          } else {
+            pagetop.fadeOut();
+          }
+        });
+
+        pagetop.click(function () {
+          $("body, html").animate({ scrollTop: 0 }, 500);
+          return false;
+        });
+
+        page2020.click(function () {
+          $("body, html").animate({scrollTop:$("#one").offset().top});
+          return false;
+        });
+
+        $("#term_n a[href*='#']").click(function () {
+          const Hash = $(this).attr("href");
+          const targetPosition = $(Hash).offset().top;
+          $("body,html").animate({ scrollTop: targetPosition }, 500);
+          return false;
+        });
+
+      });
+    </script>
+  </body>
+</html>

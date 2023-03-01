@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="screen and (min-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="tablet.css"
+      media="screen and (min-width:480px) and (max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="phone.css"
+      media="screen and (max-width:480px)"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Acme&family=M+PLUS+1+Code:wght@500&display=swap");
+    </style>
+    <title>Kidokoro's portfolio site</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <h1>~Kidokoro's portfolio site~</h1>
+      </div>
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown" />
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <ul>
+            <li><a href="index.html" class="animation">HOME</a></li>
+            <li><a href="work.html" class="animation">WORKS</a></li>
+            <li><a href="activ.html" class="animation">ACTIVITIES</a></li>
+            <li><a href="profile.html" class="animation">PROFILE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="menu_name">
+        WORKS
+      </div>
+    </header>
+
+    <main>
+      <div id="main_pic">
+        <img src="img/work.png" alr="メイン画像" />
+      </div>
+      <div class="box">
+        <p class="coment">
+          ここでは、私が今まで作成した作品についてご紹介しております。<br />右のメニューボタンにある”☆”は、一番力を入れた授業なので、ぜひご覧ください。
+        </p>
+        <div class="work_container">
+          <div class="first">
+            <h2 id="one">~大学１年次~</h2>
+            <div class="work_class">
+              <h3 id="zyouhousyori">
+                <a href="activ.html#one">☆情報処理実習A</a>
+              </h3>
+              <p>
+                Word、Excel、PowerPointの使い方を学びました。<br />情報処理ツールについてのまとめをリンクで貼っております。<a
+                  href="https://docs.google.com/presentation/d/1ekl6dE6mdjUI_W7Z80Kvp2tFTKtW5i5qU_mj1eqJfZo/edit?usp=sharing"
+                  class="animation"
+                  target="_blank"
+                  >こちらをクリックしてください</a
+                >
+              </p>
+            </div>
+            <div class="work_class">
+              <h3 id="dezainron">
+                <a href="activ.html#one">☆デザイン論及び演習</a>
+              </h3>
+              <p>
+                情報をデザインで伝達するための、視覚表現の基礎を学びました。<br />そのため、グラフィックソフトのillustratorやPhotoshopの使い方を学びました。<br />代用ソフトとしてInkscapeとGIMPを使用した作品もあります。
+              </p>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1W2_q6hWLq-ni-OPIFAtER9cGw3Ea7Q0J/view?usp=sharing"
+                    target="_blank"
+                    ><img
+                      src="work_img/daia.jpg"
+                      alr="ダイアグラム"
+                      width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  クラスメイトの血液型と星座を集計し、その人数の多さを比較し、ダイアグラムとして、血液型の人数をしゃぼん玉の液の量で、星座の人数をしゃぼん玉の大きさで表現しました。<br />この作品は、PowerPointを使って制作しました。<br />画像をクリックすると、提出した課題のPDFが表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1Aj2KV40DxiLnEK503K9_uM3t5WE83pfg/view?usp=sharing"
+                    target="_blank"
+                    ><img src="work_img/logo.jpg" alr="ロゴ" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  自分で空想の企業を作り、その企業のロゴを作成しました。<br />この作品は、illustratorを使って制作しました。<br />画像をクリックすると、提出した課題のPDFが表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1lVfc9Ubdj-hiYLO51OlzfwnGr6P2drQw/view?usp=sharing"
+                    target="_blank"
+                    ><img src="work_img/sakushi.jpg" alr="錯視" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  錯視について学び、自分なりの錯視を使った作品を作成しました。<br />この作品は、illustratorを使って制作しました。<br />画像をクリックすると、提出した課題のPDFが表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1bJgGQZiDE8PnX15nb93n4pJH7Zu5wg16/view?usp=sharing"
+                    target="_blank"
+                    ><img src="work_img/iro.jpg" alr="色相環" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  身のまわりにあるモノを撮影し、その写真を使って色相環を作成しました。<br />この作品は、Photoshopを使って制作しました。<br />画像をクリックすると、提出した課題のPDFが表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1qu4Lx--tJXTLqiRAdUXDKOVfZpe0dRR8/view?usp=sharing"
+                    target="_blank"
+                    ><img
+                      src="work_img/kyara.jpg"
+                      alr="キャラクター"
+                      width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  自分自身をキャラクターにして表現した作品を作成しました。キャラクターを作るだけでなく、どんな特徴があるかを図鑑風にして表現しました。<br />この作品は、Inkscapeを使って制作しました。<br />画像をクリックすると、提出した課題のPDFが表示されます。
+                </div>
+              </div>
+            </div>
+            <div class="work_class">
+              <h3 id="pronyumon">
+                <a href="activ.html#one">☆プログラミング入門</a>
+              </h3>
+              <p>JavaScriptのライブラリであるp5.jsの使い方を学びました。</p>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://editor.p5js.org/Mizuki_Kidokoro/sketches/GJ65yLyvnV"
+                    target="_blank"
+                    ><img src="work_img/robot.jpg" alr="ロボット" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  draw関数を学び、ロボット工場をイメージして作成しました。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://editor.p5js.org/Mizuki_Kidokoro/sketches/YhKP7ADlH"
+                    target="_blank"
+                    ><img src="work_img/dog.jpg" alr="透明わんこ" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  random関数を学び、道路を透明わんこが歩いているというイメージで作成しました。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://editor.p5js.org/Mizuki_Kidokoro/sketches/JbPJzSVtC"
+                    target="_blank"
+                    ><img src="work_img/mario.jpg" alr="マリオ" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  マウスの座標を取得する方法を学び、キャラクターをマウスで動かす作品を作成しました。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://editor.p5js.org/Mizuki_Kidokoro/sketches/ht01SY3XN"
+                    target="_blank"
+                    ><img src="work_img/sdg.jpg" alr="SDGs" width="160px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  SDGsをテーマに、全授業で学んだことを活かして、作成しました。<br />クリックをすると場面が変化するような作品となっております。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="second">
+            <h2 id="two">~大学２年次~</h2>
+            <div class="work_class">
+              <h3 id="kurieithib">
+                <a href="activ.html#two">☆クリエイティブ思考法</a>
+              </h3>
+              <p>
+                「社会における問題を情報デザインで解決しよう」というテーマをもとに、現状の調査と分析をし、その問題を解決するアイデアをまとめ、お互いに発表を行いました。<br />そのときのPDFをリンクに貼っております。<a
+                  href="https://drive.google.com/file/d/1pMHUdF7oY0JUSWILdk87O_MdihXIJvIH/view?usp=sharing"
+                  class="animation"
+                  target="_blank"
+                  >こちらをクリックしてください</a
+                >
+              </p>
+            </div>
+            <div class="work_class">
+              <h3 id="purokiso">
+                <a href="activ.html#two">☆プログラミングの基礎</a>
+              </h3>
+              <p>
+                この授業で初めてプログラミングの勉強をしました。言語はC言語を学びました。<br />そのときに提出した課題の一つをリンクに貼っております。<a
+                  href="https://docs.google.com/document/d/1AvmXBcr3XOsGs09D7clmqJ-oKkIzRY6_/edit?usp=sharing&ouid=117340145873534839414&rtpof=true&sd=true"
+                  class="animation"
+                  target="_blank"
+                  >こちらをクリックしてください</a
+                >
+              </p>
+            </div>
+            <div class="work_class">
+              <h3 id="net">
+                <a href="activ.html#two">☆情報ネットワーク論及び実習</a>
+              </h3>
+              <p>
+                情報ネットワークの構成や仕組みを学びました。<br />授業課題で提出したネットワーク構成図をリンクに貼っております。<a
+                  href="https://docs.google.com/presentation/d/1OH8oYquFVnLgNeCI5aukaA7YPqhFdL2Rk7J39uTyPb0/edit?usp=sharing"
+                  class="animation"
+                  target="_blank"
+                  >こちらをクリックしてください</a
+                >
+              </p>
+            </div>
+            <div class="work_class">
+              <h3 id="proen">
+                <a href="activ.html#two">☆プログラミング論及び演習</a>
+              </h3>
+              <p>
+                JavaScriptとJavaScriptのライブラリであるjQuery、p5.jsの使い方を学びました。
+              </p>
+              <div class="work_content">
+                <div>
+                  <a href="https://29lyc.csb.app/" target="_blank"
+                    ><img src="work_img/3d.jpg" alr="3D作品" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  WebGLを使って、3D作品を作成しました。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a href="https://eqdpb.csb.app/" target="_blank"
+                    ><img
+                      src="work_img/book.jpg"
+                      alr="googlebook検索"
+                      width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  GoogleBook検索を行えるWebページを作成しました。<br />キーワードを入れて検索のボタンを押すと、キーワードにヒットした本が表示されます。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a href="https://tslrk.csb.app/" target="_blank"
+                    ><img src="work_img/trip.jpg" alr="旅行" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  「旅行」をテーマに、JavaScriptを使って「旅行先ルーレット」という旅行先をルーレットによって決められるWebアプリと、JavaScriptのライブラリであるjQueryを使って「都道府県クイズ」「お出かけ診断」ができるWebアプリを作成しました。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="third">
+            <h2 id="three">~大学３年次~</h2>
+            <div class="work_class">
+              <h3 id="gazousyori">
+                <a href="activ.html#three">☆画像情報処理及び演習</a>
+              </h3>
+              <p>
+                OpenCVという画像処理ライブラリを使用し、基本的な画像処理について学びました。
+              </p>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/10WVPhwhKqriXnuwN4rHerT7NwMgi-Ti4/view?usp=sharing"
+                    target="_blank"
+                    ><img src="work_img/kimono.jpg" alr="二値化" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  グレースケール化と２値化を複数の領域に行った課題となっております。グレースケール化にはRGBのGの値をRGB各値にセットした緑チャンネル法と、RGB各値を平均した単純平均法、そして重みづけ平均法があるため、その三つの方法を使ったグレースケール化と、二値化を行いました。<br />画像をクリックすると、提出した課題が表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1ceA0Er30hRr-Z6ayWVH2rugHiphbDJNX/view?usp=sharing"
+                    target="_blank"
+                    ><img src="work_img/kitty.jpg" alr="opencv" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  OpenCV関数を使って画像処理を行った課題となっております。<br />グレースケール化、左右反転、明度変換のOpenCV関数を使っております。<br />画像をクリックすると、提出した課題が表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1uj7ba-KbFevctroamLdLm5E90gO1n1LK/view?usp=share_link"
+                    target="_blank"
+                    ><img src="work_img/movie.jpg" alr="鳥" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  OpenCV関数を動画ファイルに適用させて、映像処理を行いました。ここでは、エッジ検出を行っております。<a
+                    href="https://youtu.be/dsgZJmqaVEU"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、提出した課題が表示されます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1b2LsdIaYySYUdC9Hm-1cqVEkGXWBnbE0/view?usp=share_link"
+                    target="_blank"
+                    ><img src="work_img/bird.jpg" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  テンプレートマッチングによって鳥を四角で囲んで追うようにしました。鳥の画像をあらかじめ読み込み、その画像と合っているかの割合を出し、調べています。<a
+                    href="https://youtu.be/bx8KFCGUvEQ"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、提出した課題が表示されます。
+                </div>
+              </div>
+            </div>
+            <div class="work_class">
+              <h3 id="intafe-su">
+                <a href="activ.html#three">☆インターフェースデザイン論</a>
+              </h3>
+              <p>Unityを使用し、2Dや3Dのゲーム作成の方法を学びました。</p>
+              <div class="work_content">
+                <div>
+                  <img src="work_img/2dgame.jpg" alr="2Dゲーム" width="200px" />
+                </div>
+                <div class="work_item">
+                  ねこを矢印キーで動かして、「マグロ」「ささみ」「チーズ」を取りに行くゲームを作成しました。ねこが食べてはいけない「チョコレート」「玉ねぎ」「いか」に当たってしまうとゲームオーバーとなります。１０ポイントごとに体が大きくなり、ゲームの難易度が上がります。<br /><a
+                    href="https://youtu.be/GGAN8AizXtA"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <img
+                    src="work_img/yazirushi.jpg"
+                    alr="矢印デザイン"
+                    width="200px"
+                  />
+                </div>
+                <div class="work_item">
+                  実際にある案内看板を、見やすく改良し、ユーザ視点で駆け回りながら見られるものを作りました。<br /><a
+                    href="https://youtu.be/GXNDJktgSV0"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <img src="work_img/fox.jpg" width="200px" />
+                </div>
+                <div class="work_item">
+                  ボタン操作によって、キャラクターが進んだり、曲がったり、ジャンプしたりするものを作りました。マウスオーバーするとボタンの色が少し変化したり、ボタンを押すと押したことが分かるように色を変化させるなど、UIにも工夫しました。<br /><a
+                    href="https://youtu.be/pGfQUpruy9s"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <img src="work_img/present.jpg" width="200px" />
+                </div>
+                <div class="work_item">
+                  自分の設置したいモノを選び、ボタンを押すことによって、目の前に配置されるようになものを作りました。コントローラーによって視点を動かし、poseボタンを押すと、設置するものを選べ、決定ボタンを押すと、目の前に選んだモノが出現します。そしてreturnボタンを押すと、再び部屋の中を駆け回ることができます。
+                  <br /><a
+                    href="https://youtu.be/wZpg08uLNQg"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="work_class">
+              <h3 id="arugorizumu">
+                <a href="activ.html#three">☆アルゴリズム論及び演習</a>
+              </h3>
+              <p>Pythonを使ってアルゴリズムを学びました。</p>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1DhjPNA4qwMXBlE0dHeTPs9Xcl-Jh-gOn/view?usp=share_link"
+                    target="_blank"
+                    ><img src="work_img/Maze3J.jpg" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  左上の9を上下左右に動かし、右下のゴールに向かって進みます。その経路を記憶し、ゴールしたときに全ての経路が表示されるようになっております。<br />画像をクリックすると、ソースコードが表示されます。
+                  <br /><a
+                    href="https://youtu.be/xqvpy_33wgM"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1XvFuCvktfXhtJtYgu_4v35UQgkRSMAg8/view?usp=share_link"
+                    target="_blank"
+                    ><img src="work_img/BM-J3.jpg" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  textにある文字配置のパターンと入力値のパターンとを比較し、入力値のパターンがあった場合は、配列の何番目にあるか、そしてどのくらい比較したかの回数が表示されるようになっております。<br />画像をクリックすると、ソースコードが表示されます。
+                  <br /><a
+                    href="https://youtu.be/D2_akuU3pbM"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://drive.google.com/file/d/1G-KUTW-Gamybr1SNIjTEMmMPJlek-I67/view?usp=share_link"
+                    target="_blank"
+                    ><img src="work_img/Net-last.jpg" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  出発地点と目的地を入力すると、ネットワークの最短距離を求め、ルートを表示してくれるようになっております。<br />画像をクリックすると、ソースコードが表示されます。<br /><a
+                    href="https://youtu.be/2Lq2FdsJ0Ds"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="work_class">
+              <h3 id="zemi">
+                <a href="activ.html#three">☆社会情報学ゼミナール</a>
+              </h3>
+              <p>
+                ３年生の前期では、obnizやthree.jsを使って、いくつかの作品を作りました。後期では、卒業研究のテーマに向けて、ゼミのメンバーとディスカッションを重ねました。
+              </p>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://o653vc.csb.app/obnizLED_button.html"
+                    target="_blank"
+                    ><img src="work_img/obniz.jpg" alr="obniz" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  obnizを使用した作品です。<br />ボタンを押すと、そのボタンに書かれている色にLEDが光るようになっております。<br /><a
+                    href="https://youtu.be/0skktMEPPnI"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。<br />(※obnizが繋がっていないため、エラーとなります。)
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://syw9f7.csb.app/snowman_add.html"
+                    target="_blank"
+                    ><img
+                      src="work_img/snowman.jpg"
+                      alr="雪だるま"
+                      width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  JavaScriptのライブラリであるthree.jsを使った作品です。<br />雪が降っている空間を、雪だるまが移動しているという作品となっております。<br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a href="https://21tq1y.csb.app/" target="_blank"
+                    ><img src="work_img/three.jpg" alr="three.js" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  JavaScriptのライブラリであるthree.jsを使った作品です。<br />テーマは「空と海」となっており、海の空間にはたこやいかが泳ぎ、海の空間を抜け、上に進むと、空の空間になり、虹や風船が描かれております。
+                  <br /><a
+                    href="https://youtu.be/kzJZRE2Lbxo"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+            </div>
+            <div class="work_class">
+              <h3 id="webpro">
+                <a href="activ.html#three">☆Webプログラミング</a>
+              </h3>
+              <p>
+                Javascriptを使ってWebアプリを制作し、実践的なプログラミング技術を学びました。
+              </p>
+              <div class="work_content">
+                <div>
+                  <a href="https://2l32fz.csb.app/" target="_blank"
+                    ><img src="work_img/onsei.jpg" alr="音声認識" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  マイクをクリックし、誕生日を言うと星座を教えてくれます。そして、星座を言うと、今日の運勢を占ってくれるという作品を、音声認識を使って作りました。
+                  <br /><a
+                    href="https://youtu.be/IZzqsEhttiw"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a href="https://c7qr1x.csb.app/mygame.html" target="_blank"
+                    ><img src="work_img/ml5.jpg" alr="ml5" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  JavaScriptのライブラリであるml5.jsを使った作品です。<br />Facemeshを使った作品では、魚を口で取るゲームとなっております。10ポイントごとにイラストが増えていきます。猫の耳と口は顔のサイズに応じて変化します。<a
+                    href="https://youtu.be/jA4wgN2JDko"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />Handposeを使った作品では、じゃんけんの手をかざし、「決定」ボタンを押すことで、座標の距離が計算され、じゃんけんの手を判定します。<a
+                    href="https://youtu.be/xE9FCUNvh9Q"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://bymnr1.csb.app/christmas.html"
+                    target="_blank"
+                    ><img
+                      src="work_img/christmas.jpg"
+                      alr="obniz"
+                      width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  obnizを使用した作品です。<br />handposeで人差し指と親指の距離を測って、それの長さに応じてLEDの光の個数が変わるようになっております。ボタンを押して、「クリスマス」というと色が変化します。<br /><a
+                    href="https://youtu.be/8Lj7-A1XbLw"
+                    target="_blank"
+                    class="animation"
+                    >動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。<br />(※obnizが繋がっていないため、エラーとなります。)
+                </div>
+              </div>
+              <div class="work_content">
+                <div>
+                  <a
+                    href="https://lmwmuv.sse.codesandbox.io/index2.html"
+                    target="_blank"
+                    ><img src="work_img/pk.jpg" width="200px"
+                  /></a>
+                </div>
+                <div class="work_item">
+                  最終課題としてPK戦を作りました。<br />プレイヤー編では、handpose×obniz×音声認識を使い、プレイヤーが蹴るボールの位置を選べるようにしました。キーパー編では、スマホの傾きセンサー×obniz×音声認識を使い、キーパーが守る方向を選べるようにしました。<br /><a
+                    href="https://youtu.be/mG4g2FIFUW4"
+                    target="_blank"
+                    class="animation"
+                    >プレイヤー編の動画はこちら</a
+                  ><br />画像をクリックすると、作品ページに飛ぶことができます。<br />リンク先にはobnizが繋がっていない作品が載っているため、ぜひ遊んでみて下さい。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--TOPのボタン -->
+      <div class="top">
+        <a href="#">
+          <div class="topbtn">
+            <img src="img/top.png" />
+            <p>TOPPAGE</p>
+          </div>
+        </a>
+      </div>
+
+      <!--サイドメニュー-->
+      <div class="menu">
+        <div class="menubtn">
+          <a href="#one">１年</a>
+          <a href="#two">２年</a>
+          <a href="#three">３年</a>
+          <a href="#webpro">☆</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>Copyright © 2023 Mizuki Kidokoro</p>
+      </div>
+    </footer>
+
+    <script>
+      $(function () {
+        var pagetop = $(".top");
+        pagetop.hide();
+
+        $(window).scroll(function () {
+          const windowHeight = $(window).height();
+          const scroll = $(window).scrollTop();
+
+          $(".work_class").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 350) {
+              $(this).addClass("work-fadein");
+            } else {
+              $(this).removeClass("work-fadein");
+            }
+          });
+
+          $(".coment").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 150) {
+              $(this).addClass("coment-fadein");
+            } else {
+              $(this).removeClass("coment-fadein");
+            }
+          });
+
+          if ($(this).scrollTop() > 150) {
+            pagetop.fadeIn();
+          } else {
+            pagetop.fadeOut();
+          }
+        });
+
+        pagetop.click(function () {
+          $("body, html").animate({ scrollTop: 0 }, 500);
+          return false;
+        });
+
+        $(".menubtn a[href*='#']").click(function () {
+          const Hash = $(this).attr("href");
+          const targetPosition = $(Hash).offset().top;
+          $("body,html").animate({ scrollTop: targetPosition }, 500);
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

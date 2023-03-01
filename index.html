@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" media="screen and (min-width:1024px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:480px) and (max-width:1024px)">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:480px)">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Acme&family=M+PLUS+1+Code:wght@500&display=swap');
+    </style>
+    <title>Kidokoro's portfolio site</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <h1>~Kidokoro's portfolio site~</h1>
+      </div>
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <ul>
+            <li><a href="index.html" class="animation">HOME</a></li>
+            <li><a href="work.html" class="animation">WORKS</a></li>
+            <li><a href="activ.html" class="animation">ACTIVITIES</a></li>
+            <li><a href="profile.html" class="animation">PROFILE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="menu_name">
+        HOME
+      </div>
+    </header>
+
+    <main>
+      <div class="start">
+        <h1>~Kidokoro's portfolio site~</h1>
+      </div>
+
+      <div id="main_pic">
+        <img src="img/main.png" alr="メイン画像" />
+      </div>
+
+      <div class="box">
+        <div class="profile">
+          <h2 class="home_h2"><a href="profile.html">~PROFILE~</a></h2>
+          <div id="display">
+            <img src="img/my.jpg" alt="自分の写真" width="240px" />
+            <ul>
+              <li>氏名：城所美月</li>
+              <li>生年月日：2001年08月13日</li>
+              <li>大学：大妻女子大学</li>
+              <li>学部：社会情報学部社会情報学科デザイン専攻</li>
+              <li>資格：普通自動車第一種運転免許</li>
+              <li>趣味：スーパー銭湯巡り</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="works">
+          <h2 class="home_h2"><a href="work.html">~WORKS~</a></h2>
+          <p style="text-align: center">大学の授業で制作した作品を紹介しております。</p>
+          <div style="text-align:left">ex)</div>
+          <div>
+            <a href="work.html#gazousyori"><img src="work_img/movie.jpg" alr="動画" width="200px"  /></a>
+            <a href="work.html#proen"><img src="work_img/3d.jpg" alr="3D" width="200px" /></a>
+            <a href="work.html#webpro"><img src="work_img/onsei.jpg" alr="音声認識" width="200px" /></a>
+          </div>
+          <ul>
+            <li><a href="work.html#zyouhousyori" class="animation">情報処理</a></li>
+            <li><a href="work.html#dezainron" class="animation">デザイン論</a></li>
+            <li><a href="work.html#pronyumon" class="animation">p5.js</a></li>
+            <li><a href="work.html#kurieithib" class="animation">クリエイティブ</a></li>
+            <li><a href="work.html#purokiso" class="animation">C言語</a></li>
+            <li><a href="work.html#net" class="animation">ネットワーク論</a></li>
+            <li><a href="work.html#proen" class="animation">プログラミング論</a></li>
+            <li><a href="work.html#gazousyori" class="animation">画像処理</a></li>
+            <li><a href="work.html#intafe-su" class="animation">Unity</a></li>
+            <li><a href="work.html#arugorizumu" class="animation">アルゴリズム論</a></li>
+            <li><a href="work.html#zemi" class="animation">ゼミ</a></li>
+            <li><a href="work.html#webpro" class="animation">Webプログラミング</a></li>
+          </ul>
+        </div>
+
+        <div class="activ">
+          <h2 class="home_h2"><a href="activ.html">~ACTIVITIES~</a></h2>
+          <div class="school">
+            <div class="grade">
+              <dl>
+                <dt>2020年/１年生</dt>
+                <dd>COVID-19によってすべての授業がオンライン授業でしたが、zoomやオンデマンド授業を通して、教養科目から専門科目など様々な授業を学びました。プログラミングの勉強は初めてで、最初は授業についていくのでさえ必死でしたが、学んでいくうちにプログラミングの面白さであったり、楽しさを覚えました。</dd>
+              <dl>
+            </div>
+            <div class="grade">
+              <dl>
+                <dt>2021年/２年生</dt>
+                <dd>対面授業が始まり、友達とともに授業に励みました。部活やサークルには入らなかったため、休みの日には、授業の課題制作に時間を費やすことや、アルバイトで働いて社会経験をすること、そして気分転換として、銭湯や友人と遊びに行くなど、有意義な時間を過ごしました。</dd>
+              <dl>
+            </div>
+            <div class="grade">
+              <dl>
+                <dt>2022年/３年生</dt>
+                <dd>JavaやPythonなど新たなプログラミング言語を学びました。<br>そして、何かわくわくする新しいものを作りたいと思い、藤村ゼミに所属しました。前期の授業では、Webアプリのプログラミングを通じて、プログラミングの技術を磨き、後期の授業では、卒業研究に向けて、ゼミのメンバーと意見を交換して、自分の研究したいことを考え、テーマ発表を行いました。</dd>
+              <dl>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--TOPのボタン -->
+      <div class="top">
+        <a href="#">
+          <div class="topbtn">
+            <img src="img/top.png">
+            <p>TOPPAGE</p>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>Copyright © 2023 Mizuki Kidokoro</p>
+      </div>
+    </footer>
+
+    <script>
+      $(function () {
+        //最初にロゴを表示させる
+        setTimeout(function () {
+          $(".start h1").fadeIn(1600);
+        }, 500);
+        setTimeout(function () {
+          $(".start").fadeOut(1000);
+        }, 3000);
+
+        var pagetop = $(".top");
+        pagetop.hide();
+        
+        $(window).scroll(function () {
+          const windowHeight = $(window).height();
+          const scroll = $(window).scrollTop();
+
+          $(".profile").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 100) {
+              $(this).addClass("is-fadein");
+            }else {
+              $(this).removeClass("is-fadein");
+            }
+          });
+
+          $(".works").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 100) {
+              $(this).addClass("is-fadein");
+            }else {
+              $(this).removeClass("is-fadein");
+            }
+          });
+
+          $(".activ").each(function () {
+            const targetPosition = $(this).offset().top;
+            if (scroll > targetPosition - windowHeight + 100) {
+              $(this).addClass("is-fadein");
+            }else {
+              $(this).removeClass("is-fadein");
+            }
+          });
+          
+          if ($(this).scrollTop() > 150) {
+            pagetop.fadeIn();
+          } else {
+            pagetop.fadeOut();
+          }
+
+        });
+
+        pagetop.click(function () {
+          $("body, html").animate({ scrollTop: 0 }, 500);
+          return false;
+        });
+
+      });
+    </script>
+  </body>
+</html>
